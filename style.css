@@ -1,0 +1,55 @@
+#container
+{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey;
+    align-items: center;
+    width: 85%;
+    
+}
+nav ul
+{
+    list-style-type: none;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul
+{
+    display: flex;
+    background-color: green;
+    justify-content: center;
+}
+
+nav li
+
+{
+    padding-left: 30px;
+}
+
+header + ul
+{
+    background-color: grey;
+}
+#tete
+{
+    background-color: grey;
+}
+
