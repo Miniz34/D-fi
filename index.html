@@ -2,6 +2,12 @@
 <html lang="fr">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/0c06550e73.js" crossorigin="anonymous"></script>
+
   <meta charset="utf-8">
   <title>Défi projet 2</title>
   <link rel="stylesheet" href="style.css">
@@ -9,94 +15,95 @@
 </head>
 
 <body>
-    <!-- Le corps de la page -->
-    
-<div id="container">
+  <!-- Le corps de la page -->
+
+  <div id="container">
     <header>
       <!--l'en tête de la page-->
-        <img src="images/logo_long.png" alt="logo du site" title="Mon petit graphisme">
-        <nav>
-          <ul>
-            <li><a href="#1">Accueil</li>
-            <li><a href="#2">Contact</li> </a>
-          </ul>
-        </nav>
+      <img src="images/logo_long.png" id="logo" alt="logo du site" title="Mon petit graphisme">
+      <nav>
+        <ul>
+          <li><a href="#1">Accueil</li>
+          <li><a href="#2">Contact</li> </a>
+        </ul>
+      </nav>
 
-  </header>
+    </header>
+    <main class="border">
+      <div id="banniere" class="border purple">
+        <div id="banniereImg">
+          <img id="banniereImg" src="../images/backgroung_image.jpg" alt="Bannière">
+        </div>
+        <div id="banniereContent">
+          <img id="banniereContentLogo" src="../images/logo_long.png" alt="Logo de l'agence">
+          <h1>Agence de graphisme</h1>
+        </div>
+      </div>
 
-  <section>
-    <div id="banniere">
-    <div id="banniereImg">
-      <img id="banniereImg" src="images/backgroung_image.jpg" alt="logo du site">
-      </div>
-      <div id="bannierecontent">
-        <img id="banniereContentLogo" src="images/logo_long.png" alt="Logo de l'agence">
-        <h1>Agence de graphisme</h1>
-      </div>
-    </div>
-    </section>
-    <div id= "tout">
       <section id="presentation">
         <div id="presentationIntroduction">
           <p>Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs</p>
-          </div>
-      </section>
-    <section id="presentationSkills">
-      <article>
-          <img src="images/graphic-design.png" alt="graphisme">
-          <h2>Graphisme</h2>
-          <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons
-            des visuels dont vous serez fiers</p>
-            </article>
-            <article>
-          <img src="images/strategie.png" alt="stratégie">
-          <h2>Stratégie</h2>
-          <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et nous
-            nous adaptons à vos besoin</p>
+        </div>
+        <section id="presentationSkills">
+          <article>
+            <img src="images/graphic-design.png" alt="graphisme">
+            <h2>Graphisme</h2>
+            <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons
+              des visuels dont vous serez fiers</p>
           </article>
           <article>
-          <img src="images/illustrations.png" alt="illustrations">
-          <h2>Illustrations</h2>
-          <p>Nos graphises vous proposent des illustrations 100% originales</p>
+            <img src="images/strategie.png" alt="stratégie">
+            <h2>Stratégie</h2>
+            <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et
+              nous
+              nous adaptons à vos besoin</p>
           </article>
+          <article>
+            <img src="images/illustrations.png" alt="illustrations">
+            <h2>Illustrations</h2>
+            <p>Nos graphises vous proposent des illustrations 100% originales</p>
+          </article>
+        </section>
 
-        </div>
-      <article id="temoignage">
-        <p>
-          "Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l'écoute des besoin et
-          m'ont permis de renouveler complètement la carte de mon restaurant"
-        </p>
-        <p>Amadine, restauratrice</p>
-      </article>
-      </div>
-  </section>
+
+
+        <section id="temoignage">
+          <article>
+            <p id="temoin">
+                "Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l'écoute des besoin et
+              m'ont permis de renouveler complètement la carte de mon restaurant"
+            </p>
+            <p id="auteur">Amadine, restauratrice</p>
+          </article>
+        </section>
+    </main>
 
     <footer>
       <div id="copyright">
-        <p>
+        <h2>
           Mon petit graphisme - Agence de graphisme basée à Paris
-        </p>
+        </h2>
       </div>
       <div id="reseaux">
         <nav>
           <ul>
-            <li><a href="https://twitter.com">Twitter</li>
-            <li><a href="https://facebook.com">Facebook</li>
-            <li><a href="https://instagram.com">Instagram</li> </a>
+            <li><a href="https://twitter.com"><i class="fab fa-twitter fa-2x" style="color:white"></i></li>
+            <li><a href="https://facebook.com"><i class="fab fa-facebook-f fa-2x" style="color:white"></i></li>
+            <li><a href="https://instagram.com"><i class="fab fa-instagram fa-2x" style="color:white"></i></li> </a>
           </ul>
         </nav>
       </div>
       <div id="pieddetete">
-      <div id="infos">
-        <div>
-          <h3>Accès rapides</h3>
-          <p>
-            <ul>
-              <li><a href="#1">Accueil</li>
-              <li><a href="#2">Contact</li> </a>
-            </ul>
-          </p>
-        </div>
+        <div id="infos">
+          <div>
+            <h3>Accès rapides</h3>
+            <p>
+              <ul>
+                <li><a href="#1">Accueil</li>
+                <li><a href="#2">Contact</li> </a>
+              </ul>
+            </p>
+          </div>
         </div>
         <div>
           <h3>A propos</h3>
@@ -119,6 +126,7 @@
         </div>
       </div>
     </footer>
+  </div>
 
   </section>
 </body>
